@@ -41,6 +41,28 @@ but will be thoroughly reviewed and discussed.
 
 ## This fork:
 
+### Videocapture
+
+https://youtu.be/Ya9Md0G3IE0 
+
+### To submit
+
+https://classroom.github.com/assignment-invitations/d1d4b9b5dfaa5eb8602e6843f35a0949
+
+### Clone
+
+```shell
+$ git clone https://github.com/jonan/ForkHub
+Cloning into 'ForkHub'...
+remote: Counting objects: 32768, done.
+remote: Total 32768 (delta 0), reused 0 (delta 0), pack-reused 32768
+Receiving objects: 100% (32768/32768), 8.57 MiB | 57 KiB/s, done.
+Resolving deltas: 100% (18634/18634), done.
+```
+
+
+### Tasks
+
 ```shell
 $ ./gradlew tasks
 Download https://jcenter.bintray.com/com/github/triplet/gradle/play-publisher/1.1.4/play-publisher-1.1.4.pom
@@ -196,4 +218,510 @@ To see all tasks and more detail, run with --all.
 BUILD SUCCESSFUL
 
 Total time: 3 mins 1.221 secs
+```
+
+### Install
+
+```shell
+$ ./gradlew installDebug
+Could not find ZipAlign task. Did you specify a signingConfig for the variation Release?
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAppcompatV72301Library
+:app:prepareComAndroidSupportDesign2301Library
+:app:prepareComAndroidSupportSupportV42301Library
+:app:prepareComViewpagerindicatorLibrary241Library
+:app:prepareLibLibrary
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+Unknown source file : warning: string 'login_or_email' has no default translation.
+
+:app:generateDebugSources
+:app:processDebugJavaRes UP-TO-DATE
+:app:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:preDexDebug
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.beans.BeanMapEmitter$1) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.beans.BeanMapEmitter$2) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.beans.BeanMapEmitter$3) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.core.ClassEmitter$2) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.core.AbstractClassGenerator$1) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.core.ClassEmitter$1) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.core.ClassEmitter$3) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.core.ClassNameReader$1) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.core.EmitUtils$11) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.core.EmitUtils$12) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.core.EmitUtils$13) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.core.EmitUtils$14) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.core.DebuggingClassWriter$1) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.core.EmitUtils$3) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.core.EmitUtils$4) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.core.EmitUtils$8) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.core.EmitUtils$1) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.core.EmitUtils$10) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.core.EmitUtils$15) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.core.EmitUtils$16) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.core.EmitUtils$2) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.core.KeyFactory$2) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.core.EmitUtils$5) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.core.EmitUtils$6) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.core.EmitUtils$7) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.core.EmitUtils$9) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.core.KeyFactory$1) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.core.ReflectUtils$1) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.core.ReflectUtils$3) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.core.ReflectUtils$4) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.core.ReflectUtils$2) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.proxy.Enhancer$1) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.proxy.Enhancer$2) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.proxy.Enhancer$3) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.proxy.Enhancer$4) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.proxy.Enhancer$5) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.proxy.Enhancer$6) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.proxy.MethodInterceptorGenerator$1) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.proxy.MethodInterceptorGenerator$2) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.proxy.NoOp$1) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.proxy.Proxy$1) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.reflect.FastClassEmitter$1) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.reflect.FastClassEmitter$2) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.reflect.FastClassEmitter$3) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.reflect.FastClassEmitter$4) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.reflect.MulticastDelegate$Generator$1) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.transform.AbstractClassLoader$1) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.transform.impl.AddDelegateTransformer$1) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.transform.impl.AddInitTransformer$1) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.transform.impl.FieldProviderTransformer$1) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.transform.impl.FieldProviderTransformer$2) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.transform.impl.FieldProviderTransformer$3) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.transform.impl.FieldProviderTransformer$4) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.transform.impl.InterceptFieldTransformer$1) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.transform.impl.UndeclaredThrowableStrategy$1) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.transform.impl.UndeclaredThrowableTransformer$1) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+Unknown source file : warning: Ignoring InnerClasses attribute for an anonymous inner class
+Unknown source file : (net.sf.cglib.util.StringSwitcher$Generator$1) that doesn't come with an
+Unknown source file : associated EnclosingMethod attribute. This class was probably produced by a
+Unknown source file : compiler that did not target the modern .class file format. The recommended
+Unknown source file : solution is to recompile the class from source, using an up-to-date compiler
+Unknown source file : and without specifying any "-target" type options. The consequence of ignoring
+Unknown source file : this warning is that reflective operations on this class will incorrectly
+Unknown source file : indicate that it is *not* an inner class.
+
+:app:dexDebug
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:installDebug
+Installing APK 'app-debug.apk' on 'X330 - 4.4.4'
+Installed on 1 device.
+
+BUILD SUCCESSFUL
+
+Total time: 4 mins 17.212 secs
 ```
