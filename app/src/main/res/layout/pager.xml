@@ -23,7 +23,7 @@
         android:id="@+id/toolbar"
         style="@style/Toolbar" />
 
-    <com.github.mobile.ui.ViewPager
+    <com.github.zion.ui.ViewPager
         android:id="@+id/vp_pages"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

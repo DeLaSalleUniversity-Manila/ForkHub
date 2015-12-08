@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.github.mobile">
+    package="com.github.zion">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
@@ -24,7 +24,7 @@
         android:label="@string/app_name"
         android:theme="@style/Theme.GitHub">
         <activity
-            android:name=".ui.user.HomeActivity"
+            android:name="com.github.zion.ui.user.HomeActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:hardwareAccelerated="true">
             <intent-filter>
@@ -38,7 +38,7 @@
                 android:value="com.github.mobile.ui.search.SearchActivity"/>
         </activity>
         <activity
-            android:name=".ui.gist.CreateGistActivity"
+            android:name="com.github.zion.ui.gist.CreateGistActivity"
             android:configChanges="orientation|keyboardHidden|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
@@ -49,7 +49,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.issue.IssueBrowseActivity"
+            android:name="com.github.zion.ui.issue.IssueBrowseActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:hardwareAccelerated="true">
             <intent-filter>
@@ -63,7 +63,7 @@
                 android:value="com.github.mobile.ui.issue.IssueSearchActivity" />
         </activity>
         <activity
-            android:name=".ui.issue.EditIssuesFilterActivity"
+            android:name="com.github.zion.ui.issue.EditIssuesFilterActivity"
             android:configChanges="orientation|keyboardHidden|screenSize">
             <intent-filter>
                 <action android:name="jp.forkhub.mobile.repo.issues.filter.VIEW" />
@@ -72,7 +72,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.issue.IssueDashboardActivity"
+            android:name="com.github.zion.ui.issue.IssueDashboardActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:hardwareAccelerated="true">
             <intent-filter>
@@ -82,7 +82,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.issue.EditIssueActivity"
+            android:name="com.github.zion.ui.issue.EditIssueActivity"
             android:configChanges="orientation|keyboardHidden|screenSize">
             <intent-filter>
                 <action android:name="jp.forkhub.mobile.repo.issues.edit.VIEW" />
@@ -91,7 +91,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.search.SearchActivity"
+            android:name="com.github.zion.ui.search.SearchActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:hardwareAccelerated="true"
             android:label="@string/search_title"
@@ -105,11 +105,11 @@
                 android:resource="@xml/searchable_repos_users" />
         </activity>
         <activity
-            android:name=".ui.gist.GistsActivity"
+            android:name="com.github.zion.ui.gist.GistsActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:hardwareAccelerated="true" />
         <activity
-            android:name=".ui.issue.FiltersViewActivity"
+            android:name="com.github.zion.ui.issue.FiltersViewActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:hardwareAccelerated="true">
             <intent-filter>
@@ -119,7 +119,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.gist.GistsViewActivity"
+            android:name="com.github.zion.ui.gist.GistsViewActivity"
             android:configChanges="orientation|keyboardHidden|screenSize">
             <intent-filter>
                 <action android:name="jp.forkhub.mobile.gists.VIEW" />
@@ -128,7 +128,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.gist.GistFilesViewActivity"
+            android:name="com.github.zion.ui.gist.GistFilesViewActivity"
             android:configChanges="orientation|keyboardHidden|screenSize">
             <intent-filter>
                 <action android:name="jp.forkhub.mobile.gist.files.VIEW" />
@@ -137,7 +137,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.issue.CreateCommentActivity"
+            android:name="com.github.zion.ui.issue.CreateCommentActivity"
             android:configChanges="orientation|keyboardHidden|screenSize">
             <intent-filter>
                 <action android:name="jp.forkhub.mobile.issue.comment.create.VIEW" />
@@ -146,7 +146,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.gist.CreateCommentActivity"
+            android:name="com.github.zion.ui.gist.CreateCommentActivity"
             android:configChanges="orientation|keyboardHidden|screenSize">
             <intent-filter>
                 <action android:name="jp.forkhub.mobile.gist.comment.create.VIEW" />
@@ -155,7 +155,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.commit.CreateCommentActivity"
+            android:name="com.github.zion.ui.commit.CreateCommentActivity"
             android:configChanges="orientation|keyboardHidden|screenSize">
             <intent-filter>
                 <action android:name="jp.forkhub.mobile.commit.comment.create.VIEW" />
@@ -164,7 +164,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.repo.RepositoryViewActivity"
+            android:name="com.github.zion.ui.repo.RepositoryViewActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:hardwareAccelerated="true">
             <intent-filter>
@@ -178,7 +178,7 @@
                 android:value="com.github.mobile.ui.issue.IssueSearchActivity" />
         </activity>
         <activity
-            android:name=".ui.repo.RepositoryContributorsActivity"
+            android:name="com.github.zion.ui.repo.RepositoryContributorsActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:hardwareAccelerated="true">
             <intent-filter>
@@ -188,7 +188,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.user.UserViewActivity"
+            android:name="com.github.zion.ui.user.UserViewActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:hardwareAccelerated="true">
             <intent-filter>
@@ -198,7 +198,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.issue.IssuesViewActivity"
+            android:name="com.github.zion.ui.issue.IssuesViewActivity"
             android:configChanges="orientation|keyboardHidden|screenSize">
             <intent-filter>
                 <action android:name="jp.forkhub.mobile.issues.VIEW" />
@@ -208,7 +208,7 @@
         </activity>
 
         <service
-            android:name=".accounts.AccountAuthenticatorService"
+            android:name="com.github.zion.accounts.AccountAuthenticatorService"
             android:exported="false"
             android:process=":auth">
             <intent-filter>
@@ -221,7 +221,7 @@
         </service>
 
         <activity
-            android:name=".accounts.LoginActivity"
+            android:name="com.github.zion.accounts.LoginActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:excludeFromRecents="true">
 
@@ -231,7 +231,7 @@
             -->
         </activity>
         <activity
-            android:name=".accounts.TwoFactorAuthActivity"
+            android:name="com.github.zion.accounts.TwoFactorAuthActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:excludeFromRecents="true">
 
@@ -241,7 +241,7 @@
             -->
         </activity>
         <activity
-            android:name=".ui.user.UriLauncherActivity"
+            android:name="com.github.zion.ui.user.UriLauncherActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:excludeFromRecents="true">
             <intent-filter>
@@ -286,7 +286,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.issue.IssueSearchActivity"
+            android:name="com.github.zion.ui.issue.IssueSearchActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:hardwareAccelerated="true"
             android:label="@string/search_title"
@@ -300,7 +300,7 @@
                 android:resource="@xml/searchable_issues" />
         </activity>
         <activity
-            android:name=".ui.commit.CommitCompareViewActivity"
+            android:name="com.github.zion.ui.commit.CommitCompareViewActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/commit_compare_title">
             <intent-filter>
@@ -310,7 +310,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.commit.CommitViewActivity"
+            android:name="com.github.zion.ui.commit.CommitViewActivity"
             android:configChanges="orientation|keyboardHidden|screenSize">
             <intent-filter>
                 <action android:name="jp.forkhub.mobile.commits.VIEW" />
@@ -319,7 +319,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.commit.CommitFileViewActivity"
+            android:name="com.github.zion.ui.commit.CommitFileViewActivity"
             android:configChanges="orientation|keyboardHidden|screenSize">
             <intent-filter>
                 <action android:name="jp.forkhub.mobile.commit.file.VIEW" />
@@ -328,7 +328,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.ref.BranchFileViewActivity"
+            android:name="com.github.zion.ui.ref.BranchFileViewActivity"
             android:configChanges="orientation|keyboardHidden|screenSize">
             <intent-filter>
                 <action android:name="jp.forkhub.mobile.branch.file.VIEW" />
@@ -338,7 +338,7 @@
         </activity>
 
         <service
-            android:name=".sync.SyncAdapterService"
+            android:name="com.github.zion.sync.SyncAdapterService"
             android:exported="false"
             android:process=":repos">
             <intent-filter>
@@ -351,17 +351,17 @@
         </service>
 
         <provider
-            android:name=".sync.ContentProviderAdapter"
+            android:name="com.github.zion.sync.ContentProviderAdapter"
             android:authorities="jp.forkhub.sync"
             android:exported="false"
             android:label="GitHub"
             android:syncable="true" />
         <provider
-            android:name=".ui.search.RepositorySearchSuggestionsProvider"
+            android:name="com.github.zion.ui.search.RepositorySearchSuggestionsProvider"
             android:authorities="jp.forkhub.search.suggest.recent.repos"
             android:exported="false" />
         <provider
-            android:name=".ui.issue.IssueSearchSuggestionsProvider"
+            android:name="com.github.zion.ui.issue.IssueSearchSuggestionsProvider"
             android:authorities="jp.forkhub.search.suggest.recent.issues"
             android:exported="false" />
     </application>

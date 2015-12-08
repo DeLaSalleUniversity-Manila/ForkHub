@@ -27,6 +27,6 @@
         android:id="@android:id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        class="com.github.mobile.ui.issue.FilterListFragment" />
+        class="com.github.zion.ui.issue.FilterListFragment" />
 
 </LinearLayout>

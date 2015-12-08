@@ -47,7 +47,7 @@
         app:selectedColor="@color/pager_title_selected_text"
         app:titlePadding="10dp" />
 
-    <com.github.mobile.ui.ViewPager
+    <com.github.zion.ui.ViewPager
         android:id="@+id/vp_pages"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

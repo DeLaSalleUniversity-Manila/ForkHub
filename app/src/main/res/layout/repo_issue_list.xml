@@ -25,7 +25,7 @@
 
     <fragment
         android:id="@android:id/list"
-        class="com.github.mobile.ui.issue.IssuesFragment"
+        class="com.github.zion.ui.issue.IssuesFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

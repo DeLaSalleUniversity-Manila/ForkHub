@@ -32,7 +32,7 @@
         app:tabIndicatorColor="@color/color_accent"
         app:tabMode="scrollable" />
 
-    <com.github.mobile.ui.ViewPager
+    <com.github.zion.ui.ViewPager
         android:id="@+id/vp_pages"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
